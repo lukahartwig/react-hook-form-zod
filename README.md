@@ -1,5 +1,7 @@
 # react-hook-form-zod
 
+[![npm version](https://img.shields.io/npm/v/react-hook-form-zod.svg?style=flat)](https://www.npmjs.com/package/react-hook-form-zod)
+
 react-hook-form-zod is a library that combines [react-hook-form](https://react-hook-form.com/)
 and [zod](https://zod.dev/) to create forms with validation.
 
