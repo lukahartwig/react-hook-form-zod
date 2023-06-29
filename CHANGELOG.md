@@ -1,5 +1,11 @@
 # react-hook-form-zod
 
+## 0.2.1
+
+### Patch Changes
+
+- [`fdeed35`](https://github.com/lukahartwig/react-hook-form-zod/commit/fdeed35e4f8eed209417a4aa837310b6eaa68c14) Thanks [@lukahartwig](https://github.com/lukahartwig)! - Puts install instructions at the beginning of README and adds copy paste commands for yarn and pnpm
+
 ## 0.2.0
 
 ### Minor Changes
