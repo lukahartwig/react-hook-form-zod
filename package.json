@@ -1,5 +1,6 @@
 {
   "name": "react-hook-form-zod",
+  "description": "Typesafe forms with React Hook Form and Zod",
   "version": "0.0.0",
   "type": "module",
   "author": "Luka Hartwig <mail@lukahartwig.de>",
@@ -19,6 +20,7 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "exports": "./dist/index.js",
+  "packageManager": "pnpm@8.6.3",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write .",
