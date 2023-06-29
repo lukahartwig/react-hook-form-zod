@@ -4,6 +4,6 @@
   "baseBranch": "main",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "changesets/changesets" }
+    { "repo": "lukahartwig/react-hook-form-zod" }
   ]
 }
