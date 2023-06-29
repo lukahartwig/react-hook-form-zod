@@ -23,7 +23,7 @@
   "packageManager": "pnpm@8.6.3",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write .",
+    "format": "prettier --ignore-path .gitignore --write .",
     "release": "pnpm build && changeset publish",
     "test": "vitest typecheck"
   },
