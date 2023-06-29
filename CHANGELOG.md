@@ -1,5 +1,11 @@
 # react-hook-form-zod
 
+## 0.2.2
+
+### Patch Changes
+
+- [`d7cb843`](https://github.com/lukahartwig/react-hook-form-zod/commit/d7cb8433e446cbfb009d9ab5c7396ae4ccf64006) Thanks [@lukahartwig](https://github.com/lukahartwig)! - Adds missing import in example
+
 ## 0.2.1
 
 ### Patch Changes
