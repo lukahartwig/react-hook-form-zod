@@ -5,6 +5,20 @@ and [zod](https://zod.dev/) to create forms with validation.
 
 Its primary purpose is to reduce the boilerplate required to use zod with react-hook-form.
 
+## Install
+
+```bash
+npm install react-hook-form-zod zod
+```
+
+```bash
+yarn add react-hook-form-zod zod
+```
+
+```bash
+pnpm add react-hook-form-zod zod
+```
+
 ## Usage
 
 WITHOUT react-hook-form-zod:
@@ -47,12 +61,6 @@ function Form() {
 
   // ...
 }
-```
-
-## Installation
-
-```bash
-npm install react-hook-form-zod zod
 ```
 
 ## API Reference
