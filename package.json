@@ -1,7 +1,7 @@
 {
   "name": "react-hook-form-zod",
   "description": "Typesafe forms with React Hook Form and Zod",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "author": "Luka Hartwig <mail@lukahartwig.de>",
   "repository": "github:lukahartwig/react-hook-form-zod",
