@@ -10,8 +10,7 @@
 
 ### Minor Changes
 
-- [`0d7caf9`](https://github.com/lukahartwig/react-hook-form-zod/commit/0d7caf9ae36ed69a6bda315ff9faaddd38d0bd72) Thanks [@lukahartwig](https://github.com/lukahartwig)! - - Moves `react-hook-form` and `@hookform/resolvers` to dependencies.
-  - Update README with better example.
+- [`0d7caf9`](https://github.com/lukahartwig/react-hook-form-zod/commit/0d7caf9ae36ed69a6bda315ff9faaddd38d0bd72) Thanks [@lukahartwig](https://github.com/lukahartwig)! - Moves `react-hook-form` and `@hookform/resolvers` to dependencies and updates README with better example.
 
 ## 0.1.0
 
