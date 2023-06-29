@@ -48,6 +48,7 @@ WITH react-hook-form-zod:
 
 ```tsx
 import { useForm } from "react-hook-form-zod";
+import { z } from "zod";
 
 const schema = z.object({
   name: z.string().min(3).max(10),
