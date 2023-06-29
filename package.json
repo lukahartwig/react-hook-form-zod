@@ -1,0 +1,45 @@
+{
+  "name": "react-hook-form-zod",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Luka Hartwig <mail@lukahartwig.de>",
+  "repository": "github:lukahartwig/react-hook-form-zod",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "zod",
+    "react-hook-form",
+    "form",
+    "validation",
+    "typescript"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "release": "pnpm build && changeset publish",
+    "test": "vitest typecheck"
+  },
+  "peerDependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "react-hook-form": "^7.45.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
+    "@hookform/resolvers": "^3.1.1",
+    "@types/react": "^18.2.14",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-hook-form": "^7.45.1",
+    "typescript": "^5.1.6",
+    "vitest": "^0.32.2",
+    "zod": "^3.21.4"
+  }
+}
