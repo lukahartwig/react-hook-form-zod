@@ -1,5 +1,11 @@
 # react-hook-form-zod
 
+## 0.3.0
+
+### Minor Changes
+
+- [`688a0f0`](https://github.com/lukahartwig/react-hook-form-zod/commit/688a0f0e023a18fb89338b18c94fb8d4da6b9b61) Thanks [@lukahartwig](https://github.com/lukahartwig)! - Uses more descriptive type names from zod
+
 ## 0.2.2
 
 ### Patch Changes
