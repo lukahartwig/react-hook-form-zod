@@ -6,8 +6,8 @@ import {
 import { z } from "zod";
 
 export * from "react-hook-form";
-export type UseFormProps<TSchema extends z.ZodType, TContext = any> = Omit<
-  UseReactHookFormProps<TSchema["_input"], TContext>,
+export type UseFormProps<TSchema extends z.ZodSchema, TContext = any> = Omit<
+  UseReactHookFormProps<z.infer<TSchema>, TContext>,
   "resolver"
 > & {
   schema: TSchema;
@@ -16,7 +16,7 @@ export type UseFormProps<TSchema extends z.ZodType, TContext = any> = Omit<
 };
 
 export function useForm<
-  TSchema extends z.ZodType,
+  TSchema extends z.ZodSchema,
   TContext = any,
   TTransformedValues extends TSchema | undefined = undefined
 >({
@@ -25,7 +25,7 @@ export function useForm<
   factoryOptions,
   ...rest
 }: UseFormProps<TSchema, TContext>) {
-  return useReactHookForm<TSchema["_input"], TContext, TTransformedValues>({
+  return useReactHookForm<z.infer<TSchema>, TContext, TTransformedValues>({
     ...rest,
     resolver: zodResolver(schema, schemaOptions, factoryOptions),
   });
