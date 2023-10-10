@@ -23,31 +23,6 @@ pnpm add react-hook-form-zod zod
 
 ## Usage
 
-WITHOUT react-hook-form-zod:
-
-```tsx
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
-
-const schema = z.object({
-  name: z.string().min(3).max(10),
-  age: z.number().min(18),
-});
-
-type FormValues = z.infer<typeof schema>;
-
-function Form() {
-  const form = useForm<FormValues>({
-    resolver: zodResolver(schema),
-  });
-
-  // ...
-}
-```
-
-WITH react-hook-form-zod:
-
 ```tsx
 import { useForm } from "react-hook-form-zod";
 import { z } from "zod";
